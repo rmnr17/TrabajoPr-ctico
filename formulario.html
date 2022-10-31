@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--Trabajo Práctico Desarrollo Front End. Comisión: 22521. Desarrollo: Roxanna Niño--> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Adicta a mi Felicidad</title>
+    <link rel="shortcut icon" href="./images/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/estilos.css">
+   
+</head>
+<body>
+    <header class="encabezado">
+            <!--Contenedor del encabezado-->
+            <div class="logo-container">
+            <a href="#" class="logo">
+                <img src="./images/logo.png" alt="logo Adictaamifelicidad">
+            </a>
+            <h1 class="nombre">No + Violencia</h1>
+            </div>
+            <span class="menu-icon"><img src="./images/menu.png"></span>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="victimas.html">LAS VÍCTIMAS</a></li>
+                    <li><a href="herramientas.html">HERRAMIENTAS</a></li>
+                    <li><a href="formulario.html">ACTIVIDADES</a></li>
+                    <li><a href="testimonios.html">TESTIMONIOS</a></li>
+                </ul>
+            </nav>
+        
+    </header>
+    <main class="contenido">
+        <!--Contenedor del cuerpo de la página-->
+            <section class="formulario">
+                <div class="col-12">
+                    <table width="95%">
+                        <tr>
+                            <td width="80%" align="center"> 
+                                <h2>ACTIVIDADES EMPODERADORAS</h2>
+                            </td>
+                            <td align="left">
+                                <img src="./images/foto5.png" width="45%" alt="deco">
+                                <img src="./images/foto5.png" width="25%" alt="deco">
+                            </td>
+                        </tr>
+                    </table>
+                    <br/>
+                    <p>Es importante superar la situación y restablecer de a poco tu buena salud mental, <b>sabemos 
+                        que es difícil</b> pero sólo haciendo cosas que te reconforten, ocupen y te permitan pensar
+                        en el futuro y aprender de los errores pasados. Volverás a ser la que eras antes de todo lo
+                        que sufriste.</p>
+                    <p>Por ello te proponemos una serie de actividades que te permitirán vincularte nuevamente 
+                        con el mundo, superarte e inclusive obtener independencia económica.</p>
+                    <br/><br/> 
+                    <form action="" class="cuestionario" name="informacion" id="cuestionario" method="get">
+                        <label for="nombre" class="etiquetas">Nombre</label>
+                        <input type="text" class="form-cursos" name="nombre" id="nombre" maxlength="40" placeholder="Ingrese su Nombre">
+                        <label for="telefono" class="etiquetas">Teléfono</label>
+                        <input type="phone" class="form-cursos" name="telefono" id="telefono" placeholder="54911-12345678">
+                        <label for="correo" class="etiquetas">Correo</label>
+                        <input type="email" class="form-cursos" name="email" id="email" placeholder="ejemplo@email.com">
+                        <label for="actividades" class="etiquetas">Actividad</label>
+                        <select class="form-cursos" name="actividades" id="actividades">
+                            <option selected>Selecciona una</option>
+                            <option value="1">Baile</option>
+                            <option value="2">Repostería</option>
+                            <option value="3">Musculación</option>
+                            <option value="4">Manejo Redes Sociales</option>
+                            <option value="5">Teatro</option>
+                            <option value="6">Fotografía</option>
+                        </select>
+                        <br>
+                        <input class="buttons" type="submit" id="benviar" name="btn" value="Enviar">
+                        <input class="buttons" type="reset" value="Borrar" onclick="borrartodo()" id="borrar">
+                        <br><br>
+                    </form>
+                </div>
+            </section>
+            <section class="fila2">
+                <div class="col-12">
+                    
+                    <p>Entendemos que quizás te tiente colocar datos falsos, sin embargo recuerda que el objetivo de los mismos es que puedas disponer de información que te permita avanzar por ello trata de colocar datos lo más certeros posibles</p>
+                </div>
+            </section>
+            
+                <div class="redes">
+                    <img src="./images/facebook.png" alt="despierta" width="15%">
+                    <img src="./images/instagram.png" alt="despierta" width="15%">
+                    <img src="./images/twitter.png" alt="despierta" width="15%">
+                    <img src="./images/whatsapp.png" alt="despierta" width="15%">
+            
+            </div>
+    </main>
+    <!--Contenedor del cuerpo de la página-->
+    <footer class="pie">
+        
+        </div class="col-12">
+            <h3>Página diseñada por <a href="https://www.linkedin.com/in/roxannanino">Roxanna Niño</a></h3>
+        </div>
+    </footer>    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="scripts.js"></script>
+    <script src="informacion.js"></script>
+</body>
+</html>
