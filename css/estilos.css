@@ -28,6 +28,7 @@ body {
     width:25%;
     }
 
+
 .encabezado{
     display: flex;
     justify-content: space-between;
@@ -158,8 +159,51 @@ body {
 .cim{
     padding:2rem;
 }
+.formulario{
+    margin-top: 1.7rem;
+    margin-bottom: 0.3rem;
+    text-align: justify;
+    padding-right: 0.2rem;
+    padding-top: 4.9em;
+}
+.formulario p{
+    margin-bottom: 0.5rem;
+    text-align: justify;
+    padding-right: 0.2rem;
+    padding-top: 0.2rem;
+}
+.cuestionario{
+    width: 95%;
+    background: #9fa1a3ad;
+    padding: 1.5em 1.2em;
+    margin:auto;
+    margin-top: 20px;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px purple;
+    
+}
+.form-cursos{
+    width:100%;
+    padding:10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border:1px;
+    border-style: solid;
+    font-size: 16px;
+    
+}
 
-@media only screen and (max-width: 767px) {
+.cuestionario .buttons{
+    border:none;
+    padding:12px;
+    width:40%;
+    font-size:16px;
+    background-color:fuchsia;
+    color: white;
+}
+
+@media (max-width: 767px) {
     .menu-icon{
         display: block;
         cursor:pointer;
@@ -183,7 +227,7 @@ body {
         padding: 0.5rem;
         transition: all 0.4s linear;
         border-radius: 5px;
-       }
+    }
     .menu ul li a:hover{
             color:black;
             background-color: #69aeceb0;
@@ -194,7 +238,28 @@ body {
             margin-left: 70px;
             text-align: right;
         }
-        
-        
+}
+
+@media (max-width: 480px) {    
+    .contenido{
+        margin: 200px auto;
+        width:80%;        
     }
-  
+    .col-6{
+    width: 100%;
+    float: left;
+    padding-top: 2.5em;
+    margin-top: 400px;
+    display: contents;
+    }
+    
+}
+@media (max-width: 320px) {    
+    .contenido{
+        margin: 300px auto;
+    }
+    .col-6{
+    padding-top: 1.2em;
+    }
+    
+}
